@@ -1,7 +1,7 @@
 <script>
   function randomRedirect() {
   let links = ["https://forms.gle/ZbVxJooKDLfNGNpJ8", "https://forms.gle/8n9U2HpbAa52EmSD6", "https://forms.gle/nKHoDhUZCW9Ld4xg9"]
-  let number = Math.floor(Math.random() * 2)
+  let number = Math.floor(Math.random() * links.length)
   window.location.replace(links[number])
 };
   
