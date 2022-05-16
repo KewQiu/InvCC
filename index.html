@@ -1,1 +1,12 @@
-<h1>Prueba</h1>
+<script>
+  function randomRedirect() {
+  let links = ["https://www.google.co.cr", "https://www.facebook.com", "https://www.amazon.com"]
+  let number = Math.floor(Math.random() * 2)
+  window.location.replace(links[number])
+};
+  
+  window.onload = function() {
+  randomRedirect()
+};
+
+</script>
